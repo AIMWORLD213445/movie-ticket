@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.0.js"></script>
+    <script src="js/script.js"></script>
+    <title>Address book</title>
+    <meta charset="utf-8">
+    <title>Movie Ticket</title>
+  </head>
+  <body>
+    <div class="container">
+      <form id="newTicket">
+        <div class="form-group">
+          <label for = "newTitle">Title of the movie you would like to see</label>
+          <Input type="text" class="form-control" id="newTitle">
+        </div>
+        <div class="form-group">
+          <label for = "newTime">Show time of the movie you would like to see</label>
+          <Input type="text" class="form-control" id="newTime">
+        </div>
+        <div class="form-group">
+          <label for = "newAge">please enter your Age</label>
+          <Input type="text" class="form-control" id="newAge">
+        </div>
+        <button type="submit" class="btn-success btn-lg" id="add-newTicket">Submit Info</button>
+      </form>
+      <div>
+        <ul id="showPrice"></ul>
+      </div>
+    </div>
+  </body>
+</html>
